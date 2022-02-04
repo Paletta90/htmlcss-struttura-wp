@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+.m-y-20{
+    margin-bottom: 20px;
+}
+.container-body{
+    width: 80vw;
+    height: 100vh;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+header{
+    height: 10%;
+    background-color: #e579e6;
+}
+
+main{
+    height: 70%;
+    /* border: 2px solid red; */
+} 
+
+.first-block{
+    height: 50%;
+    background-color: #e1d67a;
+}
+
+.second-block{
+    height: 50%;
+    background-color: #0086ff;
+}
