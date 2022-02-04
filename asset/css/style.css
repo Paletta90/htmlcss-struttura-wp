@@ -6,29 +6,34 @@
 .m-y-20{
     margin-bottom: 20px;
 }
-.container-body{
-    width: 80vw;
+.m-y-10{
+    margin-bottom: 10px;
+}
+body{
+    width: 100vw;
     height: 100vh;
-    border: 1px solid black;
+}
+.container-body{
+    width: 80%;
     margin: 10px auto;
+    border: 1px solid black;
 }
 
 header{
-    height: 10%;
+    height: 10vh;
     background-color: #e579e6;
 }
-
-main{
-    height: 70%;
-    /* border: 2px solid red; */
-} 
+footer{
+    height: 5vh;
+    background-color: #8801fe;
+}
 
 .first-block{
-    height: 50%;
+    height: 40vh;
     background-color: #e1d67a;
 }
 
 .second-block{
-    height: 50%;
+    height: 50vh;
     background-color: #0086ff;
-}
+} 
