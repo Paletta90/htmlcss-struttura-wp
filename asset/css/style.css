@@ -9,6 +9,11 @@
 .m-y-10{
     margin-bottom: 10px;
 }
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
 body{
     width: 100vw;
     height: 100vh;
@@ -37,3 +42,33 @@ footer{
     height: 50vh;
     background-color: #0086ff;
 } 
+
+.block1{
+    width: 100%;
+    height: 20%;
+    background-color:#abcfe7 ;
+}
+.block2{
+    width: calc(20%-15px);
+    height: 70%;
+    float: left;
+    background-color: orange;
+}
+.block3{
+    width: 60%;
+    height: 70%;
+    background-color: red;
+    float: left;
+}
+.block4{
+    width: 20%;
+    height: 70%;
+    float: left;
+    background-color: green;
+}
+/* .block1,
+.block2,
+.block3,
+.block4{
+    background-color:#abcfe7 ;
+} */
